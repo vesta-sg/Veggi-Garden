@@ -1,5 +1,6 @@
-div.relative {
+div.topbar {
   position: sticky;
   top: 5px;
   border: 3px solid #73AD21;
+  background-color: lightblue;
 }
