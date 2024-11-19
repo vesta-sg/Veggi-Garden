@@ -1,5 +1,5 @@
 div.relative {
-  position: relative;
+  position: sticky;
   top: 5px;
   border: 3px solid #73AD21;
 }
