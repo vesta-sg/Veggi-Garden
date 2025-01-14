@@ -40,7 +40,7 @@ button {
     transition: 0.3s;
 }
 button:hover {
-    background: #fff;
+    background: #DDDDDD;
     color: #000;
 }
 .column-left {
