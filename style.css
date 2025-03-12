@@ -119,6 +119,9 @@ button:hover {
 #menu li:hover {
     background: #70BF73;
 }
+#menu img{
+    overflow: clip;
+}
 #about {
     background-color: #EDF7EE;
     padding: 40px;
