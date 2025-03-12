@@ -93,31 +93,25 @@ button:hover {
     padding: 40px;
     text-align: center;
 }
-
 #about .container {
     max-width: 800px;
     margin: auto;
 }
-
 #about h2 {
     color: #4CAF50;
 }
-
 #about h3 {
     color: #5EB762;
 }
-
 #about p {
     font-size: 18px;
     line-height: 1.6;
     color: #70BF73;
 }
-
 #about ul {
     list-style-type: none;
     padding: 0;
 }
-
 #about li {
     background: #94CF96;
     color: white;
@@ -125,4 +119,48 @@ button:hover {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+#contact {
+    background-color: #EDF7EE;
+    padding: 40px;
+    text-align: center;
+}
+#contact .container {
+    max-width: 600px;
+    margin: auto;
+}
+#contact h2 {
+    color: #4CAF50;
+}
+#contact p {
+    font-size: 18px;
+    color: #70BF73;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#contact label {
+    font-weight: bold;
+    color: #5EB762;
+}
+#contact input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #94CF96;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#contact button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#contact button:hover {
+    background: #5EB762;
 }
