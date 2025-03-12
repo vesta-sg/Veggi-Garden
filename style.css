@@ -120,7 +120,9 @@ button:hover {
     background: #70BF73;
 }
 #menu img{
-    overflow: clip;
+    width: 540px;
+    height: 300px;
+    object-fit: cover;
 }
 #about {
     background-color: #EDF7EE;
