@@ -13,8 +13,26 @@
             <a href="/Veggi-Garden/index.html">Home</a> <a href="/Veggi-Garden/about.html">About</a> <a href="/Veggi-Garden/contact.html">Contact</a>
           </div>
       </nav>
-    <section class="main">
-        <h1>Contact information</h1>
+    <section class="primary">
+    <section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to reach out? Fill out the form below, and we'll get back to you as soon as possible.</p>
+        
+        <form action="contactform.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
     </section>
     </body>
   </html>
