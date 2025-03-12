@@ -97,7 +97,7 @@ button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-#menu-container h2 {
+#menu container h2 {
     color: #4CAF50;
     margin-bottom: 20px;
 }
@@ -124,7 +124,7 @@ button:hover {
     padding: 40px;
     text-align: center;
 }
-#about .container {
+#about container {
     max-width: 800px;
     margin: auto;
 }
