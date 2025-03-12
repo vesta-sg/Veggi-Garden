@@ -125,8 +125,12 @@ button:hover {
     object-fit: cover;
 }
 #about {
-    background-color: #EDF7EE;
-    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 #about container {
